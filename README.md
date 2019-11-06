@@ -22,3 +22,19 @@ Python으로 웹 스크래퍼 만들기
 ## 0.4 Code Python Online
 
 https://repl.it/
+
+# 1 Theory
+
+## 1.0 Data Types of Python
+
+파이썬은 변수 이름은 snake case로 지어줘야함
+
+None : 존재하지 않음
+
+```python
+a_string = 'like'
+a_number = 2
+a_float = 3.14
+a_boolean = True
+a_none = None
+```
