@@ -38,3 +38,20 @@ a_float = 3.14
 a_boolean = True
 a_none = None
 ```
+
+## 1.1 Lists in Python
+
+https://docs.python.org/3/library/index.html
+
+https://docs.python.org/3/library/stdtypes.html#list
+
+- list
+- tuple
+
+```python
+days = ["Mon","Tue","Wed","Thur","Fri"]
+print(days)
+days.append("Sat")
+days.reverse()
+print(days)
+```
