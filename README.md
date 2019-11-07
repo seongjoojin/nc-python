@@ -83,3 +83,18 @@ nico["handsome"] = True
 print(nico)
 
 ```
+
+## 1.3 Built-in Functions
+
+- function은 어떤 행동(기능)을 가지고 있고 계속 반복할 수 있는 것임
+- 우리는 행동(기능)을 작성하고 반복해서 재사용하려고 노력함.
+
+https://docs.python.org/3/library/functions.html
+
+```python
+print(len("sdfsdfsdfsdf"))
+age = "18"
+print(type(age))
+n_age = int(age)
+print(type(n_age))
+```
