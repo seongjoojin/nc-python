@@ -98,3 +98,15 @@ print(type(age))
 n_age = int(age)
 print(type(n_age))
 ```
+
+## 1.4 Creating a Your First Python Function
+
+파이썬에서는 함수를 정의한다고 함.
+
+```python
+def say_hello():
+	print("hello")
+	print("bye")
+
+say_hello()
+```
