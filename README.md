@@ -48,10 +48,38 @@ https://docs.python.org/3/library/stdtypes.html#list
 - list
 - tuple
 
+list 는 Mutable Sequence 임 (수정 가능)
+
 ```python
 days = ["Mon","Tue","Wed","Thur","Fri"]
 print(days)
 days.append("Sat")
 days.reverse()
 print(days)
+```
+
+## 1.2 Tuples and Dicts
+
+https://docs.python.org/3/library/stdtypes.html#tuples
+
+tuple 은 Immutable Sequence 임 (수정 불가능)
+
+```python
+days = ("Mon","Tue","Wed","Thur","Fri")
+```
+
+https://docs.python.org/3/library/stdtypes.html#dict
+
+```python
+nico = {
+    "name": "Nico",
+    "age": 29,
+    "korean": True,
+    "fav_food": ["Kimchi", "Sashimi"]
+}
+
+print(nico)
+nico["handsome"] = True
+print(nico)
+
 ```
