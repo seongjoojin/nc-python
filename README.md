@@ -110,3 +110,21 @@ def say_hello():
 
 say_hello()
 ```
+
+## 1.5 Function Arguments
+
+```python
+def say_hello(who):
+	print("hello", who)
+
+say_hello("evanjin")
+
+def plus(a,b):
+	print(a+b)
+
+def minus(a,b=0):
+	print(a-b)
+
+plus(2,5)
+minus(2)
+```
