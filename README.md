@@ -240,3 +240,15 @@ def age_check(age):
 
 age_check(18)
 ```
+
+## 1.12 for in
+
+```python
+days = ("Mon", "Tue", "Wed", "Thu", "Fri")
+
+for day in days:
+	if day is "Wed":
+		continue;
+	else:
+		print(day)
+```
