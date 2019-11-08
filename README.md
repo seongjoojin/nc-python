@@ -169,3 +169,38 @@ hello = say_hello(
     name="evanjin", age="22", are_from="korean", fav_food="kimchi")
 print(hello)
 ```
+
+## 1.9 Code Challenge!
+
+7가지 function
+
+plus, mius, times, division, negation, power, remainder
+
+```python
+def plus(a, b):
+    return int(a) + int(b)
+
+
+def mius(a, b):
+    return int(a) - int(b)
+
+
+def times(a, b):
+    return int(a) * int(b)
+
+
+def division(a, b):
+    return int(a) / int(b)
+
+
+def negation(a):
+    return -int(a)
+
+
+def power(a, b):
+    return int(a)**int(b)
+
+
+def remainder(a, b):
+    return int(a) % int(b)
+```
