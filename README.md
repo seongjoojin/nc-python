@@ -103,7 +103,7 @@ print(type(n_age))
 
 파이썬에서는 함수를 정의한다고 함.
 
-```python
+```py
 def say_hello():
 	print("hello")
 	print("bye")
@@ -113,7 +113,7 @@ say_hello()
 
 ## 1.5 Function Arguments
 
-```python
+```py
 def say_hello(who):
 	print("hello", who)
 
@@ -135,7 +135,7 @@ minus(2)
 - python은 return하는 순간 function은 종료됨
 - 한 번에 하나의 값만 return 할 수 있음
 
-```python
+```py
 def p_plus(a, b):
     print(a + b)
 
@@ -152,7 +152,7 @@ print(p_result,r_result)
 
 ## 1.8 Keyworded Arguments
 
-```python
+```py
 def plus(a, b):
     return a - b
 
@@ -176,7 +176,7 @@ print(hello)
 
 plus, mius, times, division, negation, power, remainder
 
-```python
+```py
 def plus(a, b):
     return int(a) + int(b)
 
@@ -209,7 +209,7 @@ def remainder(a, b):
 
 https://docs.python.org/3/library/stdtypes.html#truth-value-testing
 
-```python
+```py
 def plus(a, b):
     if type(a) is int and type(b) is int:
         return a - b
@@ -226,7 +226,7 @@ https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not
 
 https://docs.python.org/3/library/stdtypes.html#comparisons
 
-```python
+```py
 def age_check(age):
 	print(f"you are {age}")
 	if age < 18:
@@ -243,7 +243,7 @@ age_check(18)
 
 ## 1.12 for in
 
-```python
+```py
 days = ("Mon", "Tue", "Wed", "Thu", "Fri")
 
 for day in days:
@@ -251,4 +251,15 @@ for day in days:
 		continue;
 	else:
 		print(day)
+```
+
+## 1.13 Modules
+
+- 기능의 집합
+
+```py
+from math import ceil, fsum as num
+
+print(ceil(1.5))
+print(num([-1.5, 1, 5]))
 ```
