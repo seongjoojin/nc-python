@@ -204,3 +204,19 @@ def power(a, b):
 def remainder(a, b):
     return int(a) % int(b)
 ```
+
+## 1.10 Conditionals part One
+
+https://docs.python.org/3/library/stdtypes.html#truth-value-testing
+
+```python
+def plus(a, b):
+    if type(a) is int and type(b) is int:
+        return a - b
+    else:
+        return None
+
+
+print(plus(12, "10"))
+
+```
