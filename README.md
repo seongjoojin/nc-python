@@ -149,3 +149,23 @@ r_result = r_plus(2, 3)
 
 print(p_result,r_result)
 ```
+
+## 1.8 Keyworded Arguments
+
+```python
+def plus(a, b):
+    return a - b
+
+
+result = plus(b=30, a=1)
+print(result)
+
+
+def say_hello(name, age, are_from, fav_food):
+    return f"Hello {name} you are {age} you are from {are_from} you like {fav_food}"
+
+
+hello = say_hello(
+    name="evanjin", age="22", are_from="korean", fav_food="kimchi")
+print(hello)
+```
