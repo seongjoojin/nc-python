@@ -263,3 +263,17 @@ from math import ceil, fsum as num
 print(ceil(1.5))
 print(num([-1.5, 1, 5]))
 ```
+
+# 2 Building a Job Scrapper
+
+## 2.0 What is Web Scrapping
+
+- 웹 상의 데이터를 추출하는 하는 것을 말함
+
+## 2.1 What are We Building
+
+https://kr.indeed.com/
+
+https://stackoverflow.com/jobs
+
+위 사이트에서 일자리를 가져온 뒤 엑셀 시트에 옮길 것
