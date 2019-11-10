@@ -284,10 +284,36 @@ https://requests.readthedocs.io/en/master/
 
 https://github.com/psf/requests
 
-`brew install pipenv`
+**가상환경 생성**
 
-`pipenv install requests`
+`python3 -m venv web-scraper`
+
+**가상환경 활성화**
+
+`source web-scraper/bin/activate`
+
+**가상환경 비활성화**
+
+`deactivate`
+
+**가상환경 삭제**
+
+`deactivate`
+
+`sudo rm -rf web-scraper`
+
+**requests 설치**
+
+`python -m pip installå requests`
+
+**beautifulsoup4 설치**
 
 https://www.crummy.com/software/BeautifulSoup/
 
-`pipenv install beautifulsoup4`
+`python -m pip install beautifulsoup4`
+
+## 2.3 Extracting Indeed Pages
+
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+soup은 데이터를 추출함
