@@ -277,3 +277,17 @@ https://kr.indeed.com/
 https://stackoverflow.com/jobs
 
 위 사이트에서 일자리를 가져온 뒤 엑셀 시트에 옮길 것
+
+## 2.2 Navigating with Python
+
+https://requests.readthedocs.io/en/master/
+
+https://github.com/psf/requests
+
+`brew install pipenv`
+
+`pipenv install requests`
+
+https://www.crummy.com/software/BeautifulSoup/
+
+`pipenv install beautifulsoup4`
