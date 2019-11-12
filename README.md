@@ -317,3 +317,9 @@ https://www.crummy.com/software/BeautifulSoup/
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 soup은 데이터를 추출함
+
+## 2.9 StackOverflow Pages
+
+1. 페이지를 가져올 것
+2. request를 만들 것
+3. job을 추출하기
