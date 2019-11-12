@@ -323,3 +323,7 @@ soup은 데이터를 추출함
 1. 페이지를 가져올 것
 2. request를 만들 것
 3. job을 추출하기
+
+## 2.10 StackOverflow extract_jobs
+
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/#get-text
