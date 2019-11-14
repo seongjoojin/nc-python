@@ -304,7 +304,7 @@ https://github.com/psf/requests
 
 **requests 설치**
 
-`python -m pip installå requests`
+`python -m pip install requests`
 
 **beautifulsoup4 설치**
 
@@ -327,3 +327,8 @@ soup은 데이터를 추출함
 ## 2.10 StackOverflow extract_jobs
 
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/#get-text
+
+## 2.14 What is CSV
+
+- CSV : Comma Separated Values
+- colum은 comma로 구분하고 각 row는 new line으로 구분함
