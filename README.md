@@ -332,3 +332,7 @@ https://www.crummy.com/software/BeautifulSoup/bs4/doc/#get-text
 
 - CSV : Comma Separated Values
 - colum은 comma로 구분하고 각 row는 new line으로 구분함
+
+## 2.15 Saving to CSV
+
+https://docs.python.org/3/library/functions.html#open
