@@ -344,3 +344,28 @@ https://docs.python.org/3/library/functions.html#open
 - 파이썬만 사용해서 Front End에 Back End API를 만들 수 있음
 - 엄청 큰 커뮤니티를 가지고 있음
 - 인스타그램, 핀터레스트
+
+## 3.1 `*args **kwargs`
+
+Django에는 이해해야 할 두 가지 중요한 컨셉
+
+1. arguments
+2. keyword arguments
+
+```py
+def plus(*args):
+    result = 0
+    for number in args:
+        result += number
+    return result
+
+plus(1, 2, 3, 4, 6)
+```
+
+무한으로 arguments를 쓰고 싶다면 두 가지 방법이 있음
+
+첫 번째 방법 : `*args` => positional argument 를 위한 것, tuple형태로 나옴
+두 번째 방법 : `**kwargs` => keyword argument 를 위한 것, dictionary로 나옴
+
+- argument는 positional argument `a,b` 과 keyword argument `hello=True`로 나눠짐
+- 하나는 tuple형태로 나오고 다른 하나는 dictionary로 나옴
