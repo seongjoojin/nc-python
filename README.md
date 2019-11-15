@@ -336,3 +336,11 @@ https://www.crummy.com/software/BeautifulSoup/bs4/doc/#get-text
 ## 2.15 Saving to CSV
 
 https://docs.python.org/3/library/functions.html#open
+
+# 3 Get Ready for Django
+
+## 3.0 Django is AWESOME
+
+- 파이썬만 사용해서 Front End에 Back End API를 만들 수 있음
+- 엄청 큰 커뮤니티를 가지고 있음
+- 인스타그램, 핀터레스트
