@@ -369,3 +369,29 @@ plus(1, 2, 3, 4, 6)
 
 - argument는 positional argument `a,b` 과 keyword argument `hello=True`로 나눠짐
 - 하나는 tuple형태로 나오고 다른 하나는 dictionary로 나옴
+
+## 3.2 Intro to Object Oriented Programming
+
+- 객체지향 프로그래밍는 코드를 정리하는 방법중 하나임
+- class는 간단하게 말해서 설계도임
+- class로 많은 instance 들을 가질 수 있게 함 => 설계도를 가지고 만든 여러 복제품 같은 것 (blueprint)
+- instance는 설계도로 만든 살아있는 결과물, 설계도로 만든 제품
+
+```py
+class Car():
+    wheels = 4
+    doors = 4
+    windows = 4
+    seats = 4
+
+porche = Car()
+porche.color = "Red"
+
+ferrari = Car()
+ferrari.color = "Yellow"
+
+mini = Car()
+mini.color = "White"
+```
+
+Instantiation => 설계도(class)를 가지고 와서 Instance를 만드는 것
