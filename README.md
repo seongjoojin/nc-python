@@ -395,3 +395,25 @@ mini.color = "White"
 ```
 
 Instantiation => 설계도(class)를 가지고 와서 Instance를 만드는 것
+
+## 3.3 Methods part One
+
+```py
+class Car():
+    wheels = 4
+    doors = 4
+    windows = 4
+    seats = 4
+
+    def start(self):
+        print(self)
+        print("I started")
+
+    porche = Car()
+    porche.color = "Red"
+    porche.start()
+```
+
+- method는 class안에 있는 function임
+- 파이썬은 모든 함수를 하나의 argument랑 함께 사용함
+- 모든 method의 첫 번째 argment는 method를 호출하는 instance 자신임
