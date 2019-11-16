@@ -417,3 +417,43 @@ class Car():
 - method는 class안에 있는 function임
 - 파이썬은 모든 함수를 하나의 argument랑 함께 사용함
 - 모든 method의 첫 번째 argment는 method를 호출하는 instance 자신임
+
+## 3.4 Methods part Two
+
+```py
+class Car():
+    wheels = 4
+    doors = 4
+    windows = 4
+    seats = 4
+
+print(dir(Car()))
+## ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'doors', 'seats', 'wheels', 'windows']
+```
+
+- dir은 class안에 있는 모든 것들을 리스트로 보여줌
+- `__str__`은 class의 instance를 출력함
+- `__init__`은 class를 만들었을 때 바로 만들어지는 method
+
+```py
+class Car():
+
+	def __init__(self, **kwargs):
+		self.wheels = 4
+		self.doors = 4
+		self.windows = 4
+		self.seats = 4
+		self.color = kwargs.get("color", "black")
+		self.price = kwargs.get("price", "$20")
+
+	def __str__(self):
+		return f"Car with {self.wheels} wheels"
+
+porche = Car(color="Green", price="$40")
+print(porche.color, porche.price)
+
+mini = Car()
+print(mini.color, mini.price)
+# Green $40
+# black $20
+```
